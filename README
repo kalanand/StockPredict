@@ -1,0 +1,78 @@
+__        ___           _     _       _ _     ___ 
+\ \      / / |__   __ _| |_  (_)___  (_) |_  |__ \
+ \ \ /\ / /| '_ \ / _` | __| | / __| | | __|   / /
+  \ V  V / | | | | (_| | |_  | \__ \ | | |_   |_| 
+   \_/\_/  |_| |_|\__,_|\__| |_|___/ |_|\__|  (_) 
+                                                  
+
+StockPredict is a lightweight package written in Python to
+predict future stock price based on the stochastic nature 
+of the price movement simulated using geometric Brownian motion. 
+For a quick introduction to the Brownian motion please see 
+the following Wikipedia article 
+
+http://en.wikipedia.org/wiki/Geometric_Brownian_motion
+
+
+ _____           _                     _                 _ 
+|_   _|__     __| | _____      ___ __ | | ___   __ _  __| |
+  | |/ _ \   / _` |/ _ \ \ /\ / / '_ \| |/ _ \ / _` |/ _` |
+  | | (_) | | (_| | (_) \ V  V /| | | | | (_) | (_| | (_| |
+  |_|\___/   \__,_|\___/ \_/\_/ |_| |_|_|\___/ \__,_|\__,_|
+                                                           
+
+git clone git://github.com/kalanand/StockPredict
+
+
+ _   _                 _                           
+| | | | _____      __ | |_ ___    _ __ _   _ _ __  
+| |_| |/ _ \ \ /\ / / | __/ _ \  | '__| | | | '_ \ 
+|  _  | (_) \ V  V /  | || (_) | | |  | |_| | | | |
+|_| |_|\___/ \_/\_/    \__\___/  |_|   \__,_|_| |_|
+                                                   
+
+The main executable is 'analyzer.py', which can be run 
+on command-line in a terminal window using the command 
+
+python analyzer.py
+
+It will produce a plot of future stock price prediction as a function 
+of time for the next 10 days. You can configure the stock tickers to plot 
+and the number of days.   
+
+
+ _____                           _              _       _       
+| ____|_  ____ _ _ __ ___  _ __ | | ___   _ __ | | ___ | |_ ___ 
+|  _| \ \/ / _` | '_ ` _ \| '_ \| |/ _ \ | '_ \| |/ _ \| __/ __|
+| |___ >  < (_| | | | | | | |_) | |  __/ | |_) | | (_) | |_\__ \
+|_____/_/\_\__,_|_| |_| |_| .__/|_|\___| | .__/|_|\___/ \__|___/
+                          |_|            |_|                    
+
+Please see <https://github.com/kalanand/StockPredict/plot_Dow_4.png>
+
+
+ _____         _           _           _       _      _        _ _     
+|_   _|__  ___| |__  _ __ (_) ___ __ _| |   __| | ___| |_ __ _(_) |___ 
+  | |/ _ \/ __| '_ \| '_ \| |/ __/ _` | |  / _` |/ _ \ __/ _` | | / __|
+  | |  __/ (__| | | | | | | | (_| (_| | | | (_| |  __/ || (_| | | \__ \
+  |_|\___|\___|_| |_|_| |_|_|\___\__,_|_|  \__,_|\___|\__\__,_|_|_|___/
+                                                                       
+                                    
+Author : Kalanand Mishra
+Home Page : https://github.com/kalanand/StockPredict
+Operating System : OS Independent
+Programming Language : Python 
+Intended Audience : Science/Research
+
+
+ _     _                         
+| |   (_) ___ ___ _ __  ___  ___ 
+| |   | |/ __/ _ \ '_ \/ __|/ _ \
+| |___| | (_|  __/ | | \__ \  __/
+|_____|_|\___\___|_| |_|___/\___|
+                                 
+StockPredict is a free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of the
+License or any later version: <http://www.gnu.org/licenses/>.
+This software is distributed WITHOUT ANY WARRANTY. 
